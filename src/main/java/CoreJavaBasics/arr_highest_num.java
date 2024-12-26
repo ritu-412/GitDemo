@@ -30,7 +30,7 @@ public class arr_highest_num {
 		for(int i = original.length()-1; i>=0; i--) {
 			reverse = reverse+original.charAt(i);
 		}
-		System.out.println(reverse+"test");
+		System.out.println(reverse);
 		return reverse;
 
 	}
